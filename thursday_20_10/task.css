@@ -1,0 +1,28 @@
+body{
+    background-color:antiquewhite
+}
+
+.braa{
+    padding: 2%;
+    border: 1px solid black;
+background-color: aliceblue;
+}
+
+.esam{
+    padding: 2%;
+    border: 2px dashed black;
+background-color:white
+}
+.esam p{
+    border: 2px dashed crimson;
+    padding: 2%;
+}
+.hasan{
+    color:darkmagenta;
+    padding: 2%;
+    border: 1px solid black;
+background-color: aliceblue;
+}
+.i{
+    background-color: burlywood;
+}
