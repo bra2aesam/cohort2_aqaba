@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    width: 50%;
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+        "head head head head head"
+        "nav nav nav nav nav"
+        "cont cont cont cont cont"
+        "list list list list list"
+        "hori hori hori hori hori"
+        "prof prof prof prof prof"
+        "foot foot foot foot foot";
+    gap: 10px;
+}
+
+.pag {
+    /* background-color: gray; */
+    color: black;
+}
+
+
+.head {
+    grid-area: head;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.icons_continer {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    justify-self: end;
+    margin-top: 5px;
+    margin-right: 10px;
+    align-self: center;
+    color:darkred;
+}
+
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 50px;
+    color: maroon;
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+.textlogo {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: -20px;
+    margin-left: -50px;
+
+}
+
+h1 {
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'Rochester', cursive;
+}
+
+#texhead {
+    margin-top: -7%;
+}
+
+
+.paragraph {
+    margin: 2%;
+}
+
+
+
+.nav {
+    grid-area: nav;
+}
+
+h3 {
+    font-family: 'Taprom', cursive;
+    font-size: xx-large;
+}
+
+
+.cont {
+    grid-area: cont;
+}
+
+.list {
+    grid-area: list;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: bisque;
+    box-shadow: 0px 3px 4px;
+
+
+}
+
+.hori{
+    grid-area: hori;
+}
+
+
+.ing1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    list-style: none;
+    margin-left: -15%;
+}
+
+.ing2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+.prof {
+    grid-area: prof;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.smile {
+    margin-left: 15px;
+    margin-top: 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.button {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    justify-self: center;
+    align-self: center;
+
+}
+
+button {
+    background-color: crimson;
+    border: 1px solid black;
+    color: white
+}
+
+.fa-face-smile {
+    font-size: 50px;
+}
+
+
+
+
+
+.foot {
+    grid-area: foot;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+hr{
+    height: 5px;
+    background-image: url(/page/22.jpg);
+
+    
+}
